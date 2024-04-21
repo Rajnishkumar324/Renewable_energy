@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    padding: 2vh 2vw;
+}
+
+#logo-img{
+    height: 8vh;
+}
+
+.logo-txt {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+}
+
+.navbar{
+    display: flex;
+    width: 100vw;
+    background-color: rgba(77, 230, 77, 0.521);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(61, 38, 38, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar appears above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a raised effect */
+    transition: top 0.3s;
+}
+
+.body-container {
+    padding-top: 80px; /* Adjust padding to accommodate the fixed navbar */
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar-items>ul{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 2.5vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hero-section{
+    background-image: url("./media/background.png");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+iframe{
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#section2-heading{
+    text-align: center;
+    padding-top: 2vh;
+    color: blueviolet;
+}
+
+#our-goal:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hero-txt{
+    width: 35vw;
+    margin-left: 12vw;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3vh;
+    padding-top: 5vh;
+    color: white;
+}
+
+.footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 10vw;
+    align-items: center;
+    color: white;
+}
+
+.goal-body-container{
+    background-color: rgba(77, 230, 77, 0.521);
+    min-height: 100vh;
+    padding: 2vh 2vw;
+}
+
+.goal-body-container h1{
+    text-align: center;
+}
+
+#goal-intro{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-weight: 550;
+}
+
+#goals-list{
+    padding: 2vh 2vw;
+    line-height: 4vh;
+}
+
+#about-us_button{
+    text-decoration: none;
+    color: black;
+}
+
+#about-us_button:hover{
+    text-decoration: underline;
+}
